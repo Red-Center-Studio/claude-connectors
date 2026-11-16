@@ -9,14 +9,9 @@ Paste-ready text for directories and where each one has been submitted. Steps ma
 - **VaultSheet:** Fills security questionnaires and tender spreadsheets (.xlsx) from your approved answer vault, copying answers word for word and flagging gaps. Free plan; email-code sign-in.
 - **No-code app data migrator:** Moves a Bubble app's data to a Cloudflare D1 database and R2 bucket you own, verifying every step. Audit and plan are free; paid 30-day passes per app.
 
-## Official MCP Registry (owner)
+## Official MCP Registry
 
-Each connector folder has a `server.json` named `io.github.Red-Center-Studio/<slug>`.
-
-1. Install the publisher: https://github.com/modelcontextprotocol/registry (see its README for the current install command).
-2. `mcp-publisher login github` and follow the device login in a browser (owner).
-3. From each folder (`webdesk-claude`, `sitewatch`, `vaultsheet`, `nocode-migrator`) run `mcp-publisher publish`.
-4. Check each at `https://registry.modelcontextprotocol.io/v0/servers?search=<slug>`.
+Published 16 Nov 2026: `io.github.Red-Center-Studio/webdesk-claude`, `sitewatch` and `vaultsheet` (version 1.0.0). `nocode-migrator` waits for the owner's live test. To publish it or a new version (raise `version` in its `server.json` first), sign in with `mcp-publisher login github` and run `mcp-publisher publish` in its folder. Check at `https://registry.modelcontextprotocol.io/v0/servers?search=Red-Center-Studio`.
 
 The registry limits `description` to 100 characters; every entry here is within that.
 
