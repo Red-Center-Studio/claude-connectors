@@ -1,19 +1,27 @@
 {
-    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name":  "io.github.Red-Center-Studio/nocode-migrator",
-    "title":  "No-code app data migrator",
-    "description":  "Moves a no-code app\u0027s data to a Cloudflare D1 database and R2 bucket you own, checked at every step.",
-    "websiteUrl":  "https://redcenterstudio.com/products/no-code-migrator/",
-    "repository":  {
-                       "url":  "https://github.com/Red-Center-Studio/claude-connectors",
-                       "source":  "github",
-                       "subfolder":  "nocode-migrator"
-                   },
-    "version":  "1.0.0",
-    "remotes":  [
-                    {
-                        "type":  "streamable-http",
-                        "url":  "https://nc.redcenterstudio.com/mcp"
-                    }
-                ]
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Red-Center-Studio/nocode-migrator",
+  "title": "No-code app data migrator",
+  "description": "Moves a no-code app's data to a Cloudflare D1 database and R2 bucket you own, checked at every step.",
+  "websiteUrl": "https://redcenterstudio.com/products/no-code-migrator/",
+  "repository": {
+    "url": "https://github.com/Red-Center-Studio/claude-connectors",
+    "source": "github",
+    "subfolder": "nocode-migrator"
+  },
+  "version": "0.3.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nc.redcenterstudio.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Bearer <key> after buying a pass. The audit, plan and free trial need no key.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
 }
