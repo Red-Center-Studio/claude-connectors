@@ -1,0 +1,19 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.Red-Center-Studio/vaultsheet",
+    "title":  "VaultSheet",
+    "description":  "Fills security questionnaires from your approved answers, word for word, with gaps flagged.",
+    "websiteUrl":  "https://redcenterstudio.com/vaultsheet/",
+    "repository":  {
+                       "url":  "https://github.com/Red-Center-Studio/claude-connectors",
+                       "source":  "github",
+                       "subfolder":  "vaultsheet"
+                   },
+    "version":  "1.0.0",
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://mcp.redcenterstudio.com/vaultsheet/mcp"
+                    }
+                ]
+}

@@ -1,0 +1,19 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.Red-Center-Studio/sitewatch",
+    "title":  "Site Watch",
+    "description":  "Website monitoring in Claude: domain, certificate, DNS and email checks with plain alerts and fixes.",
+    "websiteUrl":  "https://redcenterstudio.com/sitewatch/",
+    "repository":  {
+                       "url":  "https://github.com/Red-Center-Studio/claude-connectors",
+                       "source":  "github",
+                       "subfolder":  "sitewatch"
+                   },
+    "version":  "1.0.0",
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://mcp.redcenterstudio.com/sitewatch/mcp"
+                    }
+                ]
+}

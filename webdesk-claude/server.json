@@ -1,0 +1,19 @@
+{
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name":  "io.github.Red-Center-Studio/webdesk-claude",
+    "title":  "WebDesk for Claude",
+    "description":  "Build and publish small business websites from Claude. Free plan, sign in with an email code.",
+    "websiteUrl":  "https://redcenterstudio.com/webdesk/claude/",
+    "repository":  {
+                       "url":  "https://github.com/Red-Center-Studio/claude-connectors",
+                       "source":  "github",
+                       "subfolder":  "webdesk-claude"
+                   },
+    "version":  "1.0.0",
+    "remotes":  [
+                    {
+                        "type":  "streamable-http",
+                        "url":  "https://mcp.redcenterstudio.com/mcp"
+                    }
+                ]
+}
