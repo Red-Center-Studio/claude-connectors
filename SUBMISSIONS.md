@@ -1,6 +1,6 @@
 # Listing text and submission steps
 
-Paste-ready text for directories. Nothing here has been submitted yet. Steps marked (owner) need the owner's own sign-in.
+Paste-ready text for directories and where each one has been submitted. Steps marked (owner) need the owner's own sign-in.
 
 ## 200 character blurbs
 
@@ -20,10 +20,15 @@ Each connector folder has a `server.json` named `io.github.Red-Center-Studio/<sl
 
 The registry limits `description` to 100 characters; every entry here is within that.
 
-## Other directories (owner)
+## Other directories
 
-- **Glama:** claim the studio's existing webdesk-mcp listing at glama.ai, then add the four connectors from this repository URL.
-- **Smithery, mcp.so, PulseMCP, mcpservers.org:** submit each connector with its blurb, connector URL, product page and this repository URL. mcpservers.org already lists webdesk-mcp.
+Status on 16 Nov 2026 (the migrator is held until the owner has tested it live):
+
+- **mcpservers.org:** WebDesk for Claude, Site Watch and VaultSheet submitted (free, review within 2 weeks, contact hello@redcenterstudio.com). It already lists webdesk-mcp.
+- **Glama:** WebDesk for Claude, Site Watch and VaultSheet submitted as hosted endpoints. Glama also imports the official MCP Registry. Claiming the existing webdesk-mcp listing needs the owner's sign-in.
+- **mcp.so:** only a $39 paid submission is offered without an account (owner's choice).
+- **PulseMCP:** submissions paused; it imports the official MCP Registry automatically.
+- **Smithery:** no longer takes submissions (a curated list since 31 Oct 2026).
 - **Awesome lists:** open a pull request to the lists you choose (for example punkpeye/awesome-mcp-servers) adding one line per connector: name, link to the folder here, and the 200 character blurb.
 - **Anthropic directory:** WebDesk is published; VaultSheet and the free tools server are in review.
 
