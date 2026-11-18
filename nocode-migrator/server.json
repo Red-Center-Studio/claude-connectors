@@ -1,15 +1,15 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Red-Center-Studio/nocode-migrator",
-  "title": "No-code app data migrator",
-  "description": "Moves a no-code app's data to a Cloudflare D1 database and R2 bucket you own, checked at every step.",
+  "title": "Bubble to Cloudflare App & Data Migrator",
+  "description": "Move a Bubble® app's UI, backend, D1 data, and R2 files to your Cloudflare account. Free preview.",
   "websiteUrl": "https://redcenterstudio.com/products/no-code-migrator/",
   "repository": {
     "url": "https://github.com/Red-Center-Studio/claude-connectors",
     "source": "github",
     "subfolder": "nocode-migrator"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "remotes": [
     {
       "type": "streamable-http",
@@ -17,7 +17,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional. Bearer <key> after buying a pass. The audit, plan and free trial need no key.",
+          "description": "Optional. Bearer <key> for paid passes. Free audit, plan, 3-page preview, and trial need no key.",
           "isRequired": false,
           "isSecret": true
         }

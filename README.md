@@ -7,10 +7,11 @@ Remote MCP connectors you add to Claude by URL. Built and run by [Red Center Stu
 | [WebDesk for Claude](webdesk-claude/) | Build and publish a small business website from Claude. Free plan. | `https://mcp.redcenterstudio.com/mcp` |
 | [Site Watch](sitewatch/) | Website monitoring in Claude: domain, certificate, DNS and email checks with plain alerts and fixes. Free plan. | `https://mcp.redcenterstudio.com/sitewatch/mcp` |
 | [VaultSheet](vaultsheet/) | Fills security questionnaires from your approved answers, word for word, with gaps flagged. Free plan. | `https://mcp.redcenterstudio.com/vaultsheet/mcp` |
-| [No-code app data migrator](nocode-migrator/) | Moves a no-code app's data to a Cloudflare D1 database and R2 bucket you own. Free audit. | `https://nc.redcenterstudio.com/mcp` |
+| [Bubble to Cloudflare App & Data Migrator](nocode-migrator/) | Moves a Bubble® app's UI, backend, D1 database, and R2 files into your Cloudflare account. Free audit and 3-page preview. | `https://nc.redcenterstudio.com/mcp` |
 
 Also from the studio, in other repositories:
 
+- [Bubble to Cloudflare Migrator plugin & walkthrough](https://github.com/Red-Center-Studio/bubble-to-cloudflare-migrator): standalone plugin config, walkthrough video, and parity examples for Claude Code and Antigravity.
 - [Free website checks and WebDesk for AI agents](https://github.com/Red-Center-Studio/webdesk-mcp): five free website checks with no sign-in, and an API-key server that builds websites for agents.
 - [Claude Code plugin marketplace](https://github.com/Red-Center-Studio/claude-plugins): `/plugin marketplace add Red-Center-Studio/claude-plugins`.
 

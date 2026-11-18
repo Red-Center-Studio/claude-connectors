@@ -1,0 +1,34 @@
+name: Publish to Official MCP Registry
+
+on:
+  workflow_dispatch:
+    inputs:
+      connector:
+        description: "Connector subfolder to publish"
+        required: false
+        default: "nocode-migrator"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install mcp-publisher
+        run: |
+          curl -fsSL https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz -o mcp-publisher.tar.gz
+          tar -xzf mcp-publisher.tar.gz
+          sudo mv mcp-publisher /usr/local/bin/mcp-publisher
+          mcp-publisher --version
+
+      - name: Authenticate via GitHub OIDC
+        working-directory: ${{ inputs.connector || 'nocode-migrator' }}
+        run: mcp-publisher login github-oidc
+
+      - name: Publish server.json to Official MCP Registry
+        working-directory: ${{ inputs.connector || 'nocode-migrator' }}
+        run: mcp-publisher publish

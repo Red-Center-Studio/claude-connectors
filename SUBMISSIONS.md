@@ -7,11 +7,11 @@ Paste-ready text for directories and where each one has been submitted. Steps ma
 - **WebDesk for Claude:** Build and publish a small business website from Claude, hosted on a mywebdesk.app address with a quote form that emails you each enquiry. Free plan, email-code sign-in, free code export.
 - **Site Watch:** Website monitoring in Claude: domain and certificate expiry, DNS and email security (SPF, DMARC, DKIM) and AI crawler access, with plain-language alerts and fixes. Free plan, 1 site.
 - **VaultSheet:** Fills security questionnaires and tender spreadsheets (.xlsx) from your approved answer vault, copying answers word for word and flagging gaps. Free plan; email-code sign-in.
-- **No-code app data migrator:** Moves a Bubble app's data to a Cloudflare D1 database and R2 bucket you own, verifying every step. Audit and plan are free; paid 30-day passes per app.
+- **Bubble to Cloudflare App & Data Migrator:** Moves a Bubble® app's UI, backend, D1 data, and R2 files into your Cloudflare account, checked at every step. Free audit, plan, and 3-page preview.
 
 ## Official MCP Registry
 
-Published 16 Nov 2026: `io.github.Red-Center-Studio/webdesk-claude`, `sitewatch` and `vaultsheet` (version 1.0.0). `nocode-migrator` waits for the owner's live test. To publish it or a new version (raise `version` in its `server.json` first), sign in with `mcp-publisher login github` and run `mcp-publisher publish` in its folder. Check at `https://registry.modelcontextprotocol.io/v0/servers?search=Red-Center-Studio`.
+Published 16 Nov 2026: `io.github.Red-Center-Studio/webdesk-claude`, `sitewatch`, `vaultsheet` (version 1.0.0), and `nocode-migrator` (v0.4.0 via `.github/workflows/publish-mcp.yml`). Check at `https://registry.modelcontextprotocol.io/v0/servers?search=Red-Center-Studio`.
 
 The registry limits `description` to 100 characters; every entry here is within that.
 
