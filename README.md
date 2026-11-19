@@ -7,7 +7,7 @@ Remote MCP connectors you add to Claude by URL. Built and run by [Red Center Stu
 | [WebDesk for Claude](webdesk-claude/) | Build and publish a small business website from Claude. Free plan. | `https://mcp.redcenterstudio.com/mcp` |
 | [Site Watch](sitewatch/) | Website monitoring in Claude: domain, certificate, DNS and email checks with plain alerts and fixes. Free plan. | `https://mcp.redcenterstudio.com/sitewatch/mcp` |
 | [VaultSheet](vaultsheet/) | Fills security questionnaires from your approved answers, word for word, with gaps flagged. Free plan. | `https://mcp.redcenterstudio.com/vaultsheet/mcp` |
-| [Bubble to Cloudflare App & Data Migrator](nocode-migrator/) | Moves a Bubble® app's UI, backend, D1 database, and R2 files into your Cloudflare account. Free audit and 3-page preview. | `https://nc.redcenterstudio.com/mcp` |
+| [Bubble to Cloudflare App & Data Migrator](nocode-migrator/) | Moves a Bubble® app's UI, backend, D1 database, and R2 files into your Cloudflare account. Free audit and 10-page preview. | `https://nc.redcenterstudio.com/mcp` |
 
 Also from the studio, in other repositories:
 

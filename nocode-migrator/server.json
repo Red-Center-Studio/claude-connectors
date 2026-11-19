@@ -17,7 +17,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional. Bearer <key> for paid passes. Free audit, plan, 3-page preview, and trial need no key.",
+          "description": "Optional. Bearer <key> for paid passes. Free audit, plan, 10-page preview, and trial need no key.",
           "isRequired": false,
           "isSecret": true
         }
