@@ -27,11 +27,21 @@ claude mcp add --transport http <name> <connector URL>
 
 Each connector folder has its own short guide and a `server.json` for the [official MCP Registry](https://registry.modelcontextprotocol.io).
 
+## How it works / what it costs / what you own
+
+- **App Mover** (https://redcenterstudio.com/app-mover/): Free audit, migration plan, and 10-page interactive preview (no key). Full rebuilds including matching data pass, 2 rebuild rounds, and 30-day fix window: Small `$159 USD` (up to 10 pages), Standard `$299 USD` (up to 30 pages), Large `$389 USD` (up to 80 pages; 81 to 250 add `$3 USD`/page; over 250 custom quote), Developer mode `$45 USD`.
+- **Data Migrator** (https://redcenterstudio.com/app-mover/?tab=data#run): Free 1,000-record trial (7 days, once per app); 30-day passes: Starter `$39 USD` (10,000 records, 1 GB files), Migration `$69 USD` (100,000 records, 5 GB files), Large `$199 USD` (500,000 records, 50 GB files).
+- **What you own**: Everything deploys to your own Cloudflare account (Workers, D1, R2) as TypeScript, React, Hono, and Drizzle code with zero platform lock-in.
+
 ## Links
 
+- App Mover: https://redcenterstudio.com/app-mover/
+- Data Migrator: https://redcenterstudio.com/app-mover/?tab=data#run
 - All connectors, with plans: https://redcenterstudio.com/claude-connectors/
 - Privacy policy: https://redcenterstudio.com/privacy/
 - Terms: https://redcenterstudio.com/terms/
-- Support: hello@redcenterstudio.com
+- Support and security contact: hello@redcenterstudio.com
 
-The connectors themselves are hosted services. This repository holds their public listings, guides and registry entries, not their source code. The files here are MIT licensed.
+The connectors themselves are hosted services. This repository holds their public listings, guides and registry entries, not their source code. The files here are MIT licensed; see [LICENSE](LICENSE).
+
+Bubble® is a registered trademark of Bubble Group, Inc. Red Center Studio is not affiliated with, endorsed by, or certified by Bubble Group, Inc., Cloudflare, Inc., or Anthropic, PBC.

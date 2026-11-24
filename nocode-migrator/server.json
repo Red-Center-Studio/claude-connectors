@@ -3,7 +3,7 @@
   "name": "io.github.Red-Center-Studio/nocode-migrator",
   "title": "Bubble to Cloudflare App & Data Migrator",
   "description": "Move a Bubble® app's UI, backend, D1 data, and R2 files to your Cloudflare account. Free preview.",
-  "websiteUrl": "https://redcenterstudio.com/products/no-code-migrator/",
+  "websiteUrl": "https://redcenterstudio.com/app-mover/",
   "repository": {
     "url": "https://github.com/Red-Center-Studio/claude-connectors",
     "source": "github",
