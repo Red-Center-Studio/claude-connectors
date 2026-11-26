@@ -11,16 +11,16 @@ Paste-ready text for directories and where each one has been submitted. Steps ma
 
 ## Official MCP Registry
 
-Published 16 Nov 2026: `io.github.Red-Center-Studio/webdesk-claude`, `sitewatch`, `vaultsheet` (version 1.0.0), and `nocode-migrator` (v0.4.0 via `.github/workflows/publish-mcp.yml`). Check at `https://registry.modelcontextprotocol.io/v0/servers?search=Red-Center-Studio`.
+Published 16 Nov 2026: `io.github.Red-Center-Studio/webdesk-claude`, `sitewatch`, `vaultsheet` (version 1.0.0), and `nocode-migrator` (v0.4.0, still the live version on 27 Nov, via `.github/workflows/publish-mcp.yml`). Check at `https://registry.modelcontextprotocol.io/v0/servers?search=Red-Center-Studio`.
 
 The registry limits `description` to 100 characters; every entry here is within that.
 
 ## Other directories
 
-Status on 16 Nov 2026 (the migrator is held until the owner has tested it live):
+Status on 27 Nov 2026 (facts from the studio's own submission log):
 
-- **mcpservers.org:** WebDesk for Claude, Site Watch and VaultSheet submitted (free, review within 2 weeks, contact hello@redcenterstudio.com). It already lists webdesk-mcp.
-- **Glama:** WebDesk for Claude, Site Watch and VaultSheet submitted as hosted endpoints. Glama also imports the official MCP Registry. Claiming the existing webdesk-mcp listing needs the owner's sign-in.
+- **mcpservers.org:** WebDesk for Claude, Site Watch and VaultSheet submitted 16 Nov (free, review within 2 weeks, contact hello@redcenterstudio.com). It already lists webdesk-mcp. An update to the bubble-to-cloudflare-migrator listing was requested on 25 Nov. Agent Tollbooth 402 was approved and is live (24 Nov). The SharehouseHub for Claude plugin was submitted on 26 Nov and is pending review.
+- **Glama:** WebDesk for Claude, Site Watch and VaultSheet submitted as hosted endpoints. Glama also imports the official MCP Registry. Claiming a listing and refreshing the migrator description needs the owner's sign-in (owner).
 - **mcp.so:** only a $39 paid submission is offered without an account (owner's choice).
 - **PulseMCP:** submissions paused; it imports the official MCP Registry automatically.
 - **Smithery:** no longer takes submissions (a curated list since 31 Oct 2026).
@@ -29,4 +29,4 @@ Status on 16 Nov 2026 (the migrator is held until the owner has tested it live):
 
 ## Do not list
 
-SharehouseHub is not launched and is not part of this repository.
+SharehouseHub is live but is not part of this repository. Its plugin has its own repository: https://github.com/Red-Center-Studio/sharehousehub-claude-plugin
